@@ -1,0 +1,24 @@
+.container__menu {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.menu > li {
+  cursor: pointer;
+  border: 1px solid red;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.menu__title {
+  font-size: 10rem;
+  font-family: "Archivo Black", sans-serif;
+}
