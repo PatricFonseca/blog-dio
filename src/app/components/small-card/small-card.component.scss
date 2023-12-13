@@ -4,16 +4,23 @@ body {
 
 .container__card {
   display: flex;
-  height: 10rem;
+  height: 12rem;
+  border-bottom: 1px solid #fafafa;
+  padding-bottom: 1rem;
 
   img {
-    width: 10rem;
+    width: 13rem;
     height: 100%;
   }
 
   h4 {
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.25rem;
+    font-weight: bold;
     margin-left: 1rem;
   }
+}
+
+.title__container {
+  display: flex;
+  align-items: center;
 }

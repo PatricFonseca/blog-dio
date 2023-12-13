@@ -10,10 +10,11 @@
 .menu {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
   width: 100%;
   padding: 0 0 1rem;
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid #ef626c;
 }
 
 .menu > li {
@@ -33,4 +34,11 @@
 .menu__title {
   font-size: 10rem;
   font-family: "Archivo Black", sans-serif;
+
+  border-bottom: 2px solid #ef626c;
+
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  text-align: center;
 }
