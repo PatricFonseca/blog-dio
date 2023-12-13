@@ -1,0 +1,19 @@
+body {
+  color: #fff;
+}
+
+.container__card {
+  display: flex;
+  height: 10rem;
+
+  img {
+    width: 10rem;
+    height: 100%;
+  }
+
+  h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 1rem;
+  }
+}

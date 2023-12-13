@@ -1,3 +1,5 @@
+@import "../../../styles.scss";
+
 .container__menu {
   color: #fff;
   display: flex;
@@ -8,14 +10,24 @@
 .menu {
   display: flex;
   justify-content: center;
-  gap: 6px;
+  gap: 1rem;
+  width: 100%;
+  padding: 0 0 1rem;
+  border-bottom: 1px solid red;
 }
 
 .menu > li {
   cursor: pointer;
-  border: 1px solid red;
-  border-radius: 1rem;
+  // border: 1px solid red;
+  border-radius: 0.825rem;
   padding: 0.5rem;
+  border: 2px solid #ef626c;
+}
+
+.menu > li:hover {
+  // background-color: $dark-background;
+
+  background-color: $primary-color;
 }
 
 .menu__title {
