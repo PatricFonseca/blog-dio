@@ -3,7 +3,9 @@
     <img src="{{ imageUrl }}" alt="" />
 
     <div class="bigcard__content">
-      <h3>{{ title }}</h3>
+      <h3>
+        <a [routerLink]="['detail', id]">{{ title }}</a>
+      </h3>
       <p>
         {{ contentText }}
       </p>
