@@ -1,3 +1,5 @@
+@import "../../../styles.scss";
+
 .container__detail {
   display: flex;
   flex-direction: column;
@@ -16,6 +18,14 @@
   img {
     width: 100%;
     height: 20rem;
-    object-fit: cover;
+    object-fit: contain;
+  }
+
+  a {
+    padding: 2rem 0;
+
+    &:hover {
+      color: $primary-color;
+    }
   }
 }

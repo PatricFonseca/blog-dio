@@ -1,8 +1,10 @@
 <div class="container__card">
   <img src="{{ photoUrl }}" alt="" />
   <div class="title__container">
-    <h4>
-      {{ title }}
-    </h4>
+    <a [routerLink]="['detail', id]">
+      <h4>
+        {{ title }}
+      </h4>
+    </a>
   </div>
 </div>

@@ -21,4 +21,12 @@ export const dataFake = [
     photoUrl:
       'https://pbs.twimg.com/media/GAzBul3XgAAJyTE?format=jpg&name=4096x4096',
   },
+  {
+    id: 4,
+    title: 'Mortal kombat 1',
+    description:
+      'Mortal Kombat 1 é um jogo eletrônico de luta desenvolvido pela NetherRealm Studios e publicado pela Warner Bros.. Foi lançado em 19 de setembro de 2023 para PlayStation 5, Xbox Series X/S, Nintendo Switch e Windows. Mortal Kombat 1 é um reboot da série Mortal Komba',
+    photoUrl:
+      'https://www.adrenaline.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=910&height=568&format=webp&quality=91&imagick=uploads.adrenaline.com.br/2023/05/Mortal-Kombat-1-e-confirmado-e-recebe-primeiro-trailer-oficial-912x569.jpg',
+  },
 ];

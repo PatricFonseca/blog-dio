@@ -10,4 +10,6 @@ export class SmallCardComponent {
   title: string = '';
   @Input()
   photoUrl: string = '';
+  @Input()
+  id: string = '';
 }
